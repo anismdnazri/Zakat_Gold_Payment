@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Zakat Gold Payment</string>
+
+    <string-array name="status">
+        <item>Keep</item>
+        <item>Wear</item>
+    </string-array>
+
+
+    <string name="GithubLink"><a href="https://github.com/SyawalinaShukri/FarahizahMdSaupi-ZakatGold-ICT602">Zakat Emas Website</a></string>
+
+</resources>

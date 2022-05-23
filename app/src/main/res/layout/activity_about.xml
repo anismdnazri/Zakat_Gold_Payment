@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    tools:context=".AboutActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="190dp"
+        android:layout_height="199dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginEnd="115dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/zakat" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="205dp"
+        android:text="About Zakat Emas"
+        android:textColor="#151414"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-19dp"
+        android:layout_marginEnd="33dp"
+        android:text="Zakat  Emas Sdn. Bhd."
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@id/textView2"
+        android:layout_marginLeft="-4dp"
+        android:layout_marginTop="43dp"
+        android:text="Bangunan ABC, Pulau Payar"
+        android:textColor="#161616"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@id/textView2"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="-4dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="2dp"
+        android:text="04-955 6090"
+        android:textColor="#161616"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/wkingHour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_alignLeft="@id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginTop="71dp"
+        android:text="Working hour: 8am - 11pm"
+        android:textColor="#161616"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textViewLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_alignLeft="@id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="-88dp"
+        android:layout_marginTop="-70dp"
+        android:gravity="center"
+        android:text="@string/GithubLink"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="Zakat Emas Website" />
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_alignLeft="@id/textView2"
+        android:layout_marginLeft="-95dp"
+        android:layout_marginTop="262dp"
+        android:text="copyright @ Zakat Emas Sdn. Bhd."
+        android:textSize="10sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="175dp"
+        android:layout_height="84dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="193dp"
+        android:text="Keistimewaan yang dimiliki emas dan menjadi ukuran kekayaan maka islam mewajibkan zakat ke atas emas."
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorLink="@color/black"
+        android:textSize="14sp" />
+
+
+</RelativeLayout>

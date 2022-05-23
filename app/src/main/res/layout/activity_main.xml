@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dip"
+        android:paddingRight="16dip">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxBackgroundColor="#FFFFFF"
+            app:boxBackgroundMode="outline">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/goldWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Gram (g)"
+                android:textSize="18sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxBackgroundColor="#FFFFFF"
+            app:boxBackgroundMode="outline">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/goldValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Gold Value (RM)"
+                android:textSize="18sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:dropDownWidth="match_parent"
+            android:spinnerMode="dropdown"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/CalcBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate" />
+
+        <Button
+            android:id="@+id/ResetBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reset" />
+
+        <TextView
+            android:id="@+id/totalGold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/zakatPaymnt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/totalZakat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+    </LinearLayout>
+</RelativeLayout>
